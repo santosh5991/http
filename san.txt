@@ -1,1 +1,7 @@
 hi git hub
+awk {print $2 $7 }
+grep -l patter *
+find -type f -iname mtime +100 | xargs rm
+sed %s/santosh/sundeep/g
+sed -n '10p' filename
+sed -i '10p' filename
